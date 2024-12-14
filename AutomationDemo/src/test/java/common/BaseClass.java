@@ -10,20 +10,16 @@ public class BaseClass {
     @BeforeClass
     public void setup() {
     	System.out.println("Setup Method Called ");
-        // Set the ChromeDriver path
         System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver-win32\\chromedriver.exe");
 
-        // Initialize the WebDriver
         driver = new ChromeDriver();
 
-        // Maximize the browser window
         driver.manage().window().maximize();
     }
 
     @AfterClass
     public void teardown() {
     	System.out.println("Tear Down called");
-        // Quit the browser
         if (driver != null) {
             driver.quit();
         }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learningSelenium.AbTesting">
+      <class name="learningSelenium.FacebookLogin">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testABTestingContent"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- learningSelenium.AbTesting -->
+      </class> <!-- learningSelenium.FacebookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,7 +6,6 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 public class AlertAndPopups extends BaseClass {
     @Test
@@ -48,7 +47,7 @@ public class AlertAndPopups extends BaseClass {
     }
     
     @Test
-    public void hcmTestPositivr() {
+    public void hcmTestPositive() {
     	System.out.println("Harish Testing");
     	assertEquals(3, 3);
     }
